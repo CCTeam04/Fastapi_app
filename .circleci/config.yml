@@ -45,7 +45,7 @@ jobs:
           tag: latest 
       - run: |
            docker images
-           docker run -p 8000:8000 application:latest
+           docker run -p 8000:8000 python-app:latest
       - run:
           name: Install trivy
           command: |
